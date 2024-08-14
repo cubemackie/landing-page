@@ -1,0 +1,40 @@
+*, *::before, *::after { box-sizing: border-box;}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: ;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.header {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font: #F9FAF8;
+}
