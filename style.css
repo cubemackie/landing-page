@@ -1,5 +1,9 @@
 *, *::before, *::after { box-sizing: border-box;}
 
+html {
+    border: none;
+}
+
 body {
     min-height: 100vh;
     display: flex;
@@ -133,12 +137,9 @@ footer {
 
 .picture-info {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-grow: 1;
-    
-   
-    
-    
+
 }
 
 .image2, .image3, .image4, .image5 {
@@ -207,6 +208,7 @@ footer {
     min-width: 40%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    gap: 5px;
 }
 
 .button2 {
@@ -236,5 +238,11 @@ footer {
     border-bottom-right-radius: 10px;
 }
 
+.larger {
+    font-size: 18px;
+}
 
+.smaller {
+    font-size: 12px;
+};
 
